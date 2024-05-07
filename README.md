@@ -7,8 +7,9 @@ I implemented my own version of **Perlin Noise** that uses a seed to create psue
 
 <img width="410" alt="Screenshot 2024-05-07 at 09 32 29" src="https://github.com/fire-walk-with-me/TerrainGenerator/assets/78409816/1998eb40-da4c-411a-9be8-f1871a4dd722">
 
-
-I implemented **agent-based PCG** with three agents interact with the terrain, shaping it in a psuedo-random but structured way. 
+<br>
+<br>
+I also implemented **agent-based PCG** with three agents interact with the terrain, shaping it in a psuedo-random but structured way. 
 The first agents is a **moutain-agent** that raises moutains. 
 The second agent is a **river-agent**, that crates a branching river that crosses the terrain.
 The last agent is a **smoothing-agent** which crosses the whole map and smooths the terrain to look more natural.
