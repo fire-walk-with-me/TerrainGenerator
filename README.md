@@ -9,7 +9,7 @@ I implemented my own version of **Perlin Noise** that uses a seed to create psue
 
 <br>
 <br>
-I also implemented **agent-based PCG** with three agents interact with the terrain, shaping it in a psuedo-random but structured way. 
+I also implemented agent-based PCG with three agents interact with the terrain, shaping it in a psuedo-random but structured way. 
 The first agents is a moutain-agent that raises moutains. 
 The second agent is a river-agent, that crates a branching river that crosses the terrain.
 The last agent is a smoothing-agent which crosses the whole map and smooths the terrain to look more natural.
@@ -18,3 +18,5 @@ The last agent is a smoothing-agent which crosses the whole map and smooths the 
 <img width="692" alt="Screenshot 2024-05-07 at 09 34 02" src="https://github.com/fire-walk-with-me/TerrainGenerator/assets/78409816/85a9089a-b604-455e-86d8-90524877918d">
 <img width="691" alt="Screenshot 2024-05-07 at 09 34 18" src="https://github.com/fire-walk-with-me/TerrainGenerator/assets/78409816/07de0fe8-88f4-48e2-a386-6cb9780f1825">
 <img width="691" alt="Screenshot 2024-05-07 at 09 33 41" src="https://github.com/fire-walk-with-me/TerrainGenerator/assets/78409816/cfebcd95-3439-4f46-ad13-6330fff0cc1d">
+
+The agents work in real-time so that the creator can visually follow what is happening, and thus a faster(close to instant) version would be and interesting area to visit as future research.
