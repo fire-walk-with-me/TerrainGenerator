@@ -1,7 +1,7 @@
 **Gustaf Larsson
 Malmö Universitet**
 
-#This is a project in Unity, using different procedural content generation(PCG) methods to create digital terrain.
+This is a project in Unity, using different procedural content generation(PCG) methods to create digital terrain.
 
 I implemented my own version of **Perlin Noise** that uses a seed to create psuedo random height values that is used to raise or lower the ground of the terrain. The result is terrain that looks like moutains and valleys or a moon like surface.
 
